@@ -1,0 +1,16 @@
+{
+  "name": "raw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"node-sass -w scss/index.scss -o css"
+  },
+  "author": "Gospel Chinyereugo",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

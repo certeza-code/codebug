@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codebug - Portfolio</title>
+    <link rel="shortcut icon" href="./assets/avataaars (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="menuControl"><img src="./assets/dehaze-24px.svg" alt=""></button>
+    <nav id="hamburger" class="hamburger row align-items-center justify-content-start">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link" id="about-tab" href="#about" role="tab" aria-controls="about" aria-selected="true">About</a>
+            <a class="nav-link" id="tools-tab" href="#tools" role="tab" aria-controls="tools" aria-selected="false">My Tools</a>
+            <a class="nav-link" id="projects-tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">My Projects</a>
+            <a class="nav-link" id="contact-tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact me</a><br/>
+            <button id="menuClose">X</button>
+        </div>
+    </nav>
+    <section class="pt-4 container">
+        <div class="row">
+            <div class="col">
+                <figure class="m-auto">
+                    <img class="" src="./assets/avataaars.png" alt="Codebug - avatar">
+                </figure>
+                <h1 class="text-center my-4" id="about">Gospel Chinyereugo</h1>
+                <h6 class="text-center">Finalist HNG Internship 6 | LCA, Andela/Facebook Developers Circle | Cohort, Oluaka Intitute of Technology</h6>
+                <p class="m-4 text-center">I'm a Software Engineer, and CI/CD advocate. I engage in rapid software development through writing of clean and efficient code that yield scalable, fast, responsive, intuitive and dynamic products for the web and mobile. I use various software development tools and follow best practices to develop high-standard products with stunning user-experience and speed for my clients and employers. I build solutions with codes and content, with the sole aim of adding value to any community I find myself in.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-center my-4" id="tools">MY TOOLS</h4>
+                <p class="m-4 text-center"> With the following tools under my belt, I build products that leave my employers and clients satisfied.</p>
+            </div>
+            <div class="col-12">
+                <div class="row align-items-center justify-content-center">
+                    <div class="tools"><img src="./assets/Html_5.svg" alt="HTML5" title="HTML5"></div>
+                    <div class="tools"><img src="./assets/Css3.svg" alt="CSS3" title="CSS3"></div>
+                    <div class="tools"><img src="./assets/Sass.svg" alt="SASS" title="SASS"></div>
+                    <div class="tools"><img src="./assets/git-seeklogo.com.svg" alt="Git" title="Git"></div>
+                    <div class="tools"><img src="./assets/javascript-js-seeklogo.com.svg" alt="JavaScript" title="JavaScript"></div>
+                    <div class="tools"><img src="./assets/mysql-seeklogo.com.svg" alt="MySQL" title="MySQL"></div>
+                    <div class="tools"><img src="./assets/react-seeklogo.com.svg" alt="React" title="React"></div>
+                    <div class="tools"><img src="./assets/oracle-jet.jpg" alt="OracleJET" title="OracleJET"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container projects">
+        <div id="projects-container">
+            <h4 class="text-center my-4" id="projects">MY PROJECTS</h4>
+            <div id="myProjects" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myProjects" data-slide-to="0" class="active tabs"></li>
+                    <li data-target="#myProjects" data-slide-to="1" class="tabs"></li>
+                    <li data-target="#myProjects" data-slide-to="2" class="tabs"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item w-70 active">
+                        <h5 class="text-center">Start Ng</h5>
+                        <img class="projects-slide d-block" src="./assets/startng.png" alt="First slide">
+                        <h6 class="text-center mt-3">I was part of the team that built this web app for managing the activities of Mentors and Interns on the start.ng platform.</h6>
+                    </div>
+                    <div class="carousel-item w-70">
+                        <h5 class="text-center">Start Ng</h5>
+                        <img class="projects-slide d-block" src="./assets/startng.png" alt="Second slide">
+                        <h6 class="text-center mt-3">I was part of the team that built this web app for managing the activities of Mentors and Interns on the start.ng platform.</h6>
+                    </div>
+                    <div class="carousel-item w-70">
+                        <h5 class="text-center"><a href="https://dev.start.ng">HNG Board</a></h5>
+                        <img class="projects-slide d-block" src="./assets/hng-ojet.png" alt="Third slide">
+                        <h6 class="text-center mt-3">I was, and I still am, part of the team that built this web app that will be used for managing all the activities of Mentors and Interns on the HNG Internship (7 and above).</h6>
+                    </div>
+                </div>
+                <a class="carousel-control-prev ml-5" href="#myProjects" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon tabs" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next mr-5" href="#myProjects" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon tabs" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="container py-3" id="contact">
+        <h4 class="text-center">CONTACT ME</h4>
+        <p class="m-4 text-center"> You can contact me via: </p>
+        <div class="row py-4">
+            <div class="col-12">
+                <div class="row align-items-center justify-content-center">
+                    <div class="tools"><a target="_blank" href="https://twitter.com/Codebug_"><img src="./assets/Twitter.svg" alt="Twitter" title="Twitter"></a></div>
+                    <div class="tools"><a target="_blank" href="https://www.linkedin.com/in/gospel-chinyereugo/"><img src="./assets/Linkedin.svg" alt="LinkedIn" title="LinkedIn"></a></div>
+                    <div class="tools"><a target="_blank" href="https://github.com/Ebugo"><img src="./assets/Github.svg" alt="GitHub" title="GitHub"></a></div>
+                    <div class="tools"><a target="_blank" href="https://api.whatsapp.com/send?phone=2348109503956"><img src="./assets/Whatsapp.svg" alt="Whatsapp" title="Whatsapp"></a></div>
+                    <div class="tools"><a target="_blank" href="mailto:gospelokpara@gmail.com"><img src="./assets/envelope.svg" alt="Mail" title="Mail"></a></div>
+                    <div class="tools"><a target="_blank" href="tel:+2348109503956"><img src="./assets/phone.svg" alt="Phone" title="Phone"></a></div>
+                    <div class="tools"><a target="_blank" href="https://about.me/Ebugo"><img src="./assets/aboutme.png" alt="AboutMe" title="AboutMe"></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/jquery-3.4.1.js"></script>
+    <script src="./assets/bootstrap.js"></script>
+    <script src="./assets/index.js"></script>
+</body>
+</html>
