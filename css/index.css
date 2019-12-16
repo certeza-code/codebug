@@ -86,3 +86,7 @@ div.tools {
     padding: 30px 0; }
   .carousel-item {
     height: 420px; } }
+
+    .confidence {
+      color: yellow;
+    }
